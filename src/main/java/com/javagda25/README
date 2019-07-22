@@ -1,0 +1,129 @@
+Zadanie: Zamień obiekty JSON na klasy Java:
+Zadanie 1:
+{
+  "response": {
+    "status": "active",
+    "numberOfIncidents": 3,
+    "timeStart": "2019-01-01 13:04:23",
+    "sensorsThatHaveDetected": [
+      "AcousticSensor - East",
+      "Radar-1 NorthEast"
+    ]
+  }
+}
+Zadanie 2:
+{
+  "tracks": [
+    {
+      "identifier": 172,
+      "type": "TRACK",
+      "time": "2018-12-31 23:03:25",
+      "flightLength": 235.2,
+      "flightTime": 361,
+      "location": {
+        "latitude": 51.273818,
+        "longitude": 19.34769
+      },
+      "incidentOccured": true
+    },
+    {
+      "identifier": 264,
+      "type": "TRACK",
+      "time": "2019-01-03 07:15:55",
+      "flightLength": 110.3,
+      "flightTime": 145,
+      "location": {
+        "latitude": 51.253543,
+        "longitude": 19.361782
+      },
+      "incidentOccured": false
+    }
+  ]
+}
+Zadanie 3:
+{
+  "areaShape": "CIRCLE",
+  "name": "PArea-1",
+  "position": {
+    "latitude": 51.271279,
+    "longitude": 19.337877
+  },
+  "radius": 300
+}
+Zadanie 4:
+{
+  "areaShape": "POLYGON",
+  "name": "PArea-2",
+  "positions": [
+    {
+      "latitude": 51.257448,
+      "longitude": 19.339216
+    },
+    {
+      "latitude": 51.256547,
+      "longitude": 19.353367
+    },
+    {
+      "latitude": 51.269226,
+      "longitude": 19.359798
+    },
+    {
+      "latitude": 51.282019,
+      "longitude": 19.348628
+    },
+    {
+      "latitude": 51.28179,
+      "longitude": 19.325195
+    },
+    {
+      "latitude": 51.254752,
+      "longitude": 19.322789
+    }
+  ]
+}
+Zadanie 5* (z dziedziczeniem):
+{
+  "response": [
+    {
+      "areaShape": "CIRCLE",
+      "name": "PArea-1",
+      "areaId": 11,
+      "position": {
+        "latitude": 51.271279,
+        "longitude": 19.337877
+      },
+      "radius": 300
+    },
+    {
+      "areaShape": "POLYGON",
+      "name": "PArea-2",
+      "areaId": 13,
+      "positions": [
+        {
+          "latitude": 51.257448,
+          "longitude": 19.339216
+        },
+        {
+          "latitude": 51.256547,
+          "longitude": 19.353367
+        },
+        {
+          "latitude": 51.269226,
+          "longitude": 19.359798
+        },
+        {
+          "latitude": 51.282019,
+          "longitude": 19.348628
+        },
+        {
+          "latitude": 51.28179,
+          "longitude": 19.325195
+        },
+        {
+          "latitude": 51.254752,
+          "longitude": 19.322789
+        }
+      ]
+    }
+  ]
+}
